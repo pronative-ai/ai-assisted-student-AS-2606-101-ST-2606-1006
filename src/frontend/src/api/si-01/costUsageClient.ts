@@ -1,6 +1,6 @@
 import type { CostUsageResponse, CostTrendResponse } from "@/types/cost-usage-dashboard";
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:5067";
+const API_BASE = process.env.NEXT_PUBLIC_API_URL ?? "https://ca-as-2606-101-st-2606-1006--0000002.agreeablegrass-6c3c37bc.centralindia.azurecontainerapps.io";
 
 function buildUrl(path: string, params: Record<string, string>): string {
   const query = new URLSearchParams(params).toString();
